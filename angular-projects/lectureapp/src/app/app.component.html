@@ -1,0 +1,21 @@
+<h1>My App Works!</h1>
+
+<h1>Interpolation!</h1>
+<br>
+<p>Hello my name is {{ firstName }}</p>
+
+<h1>One Way Data Binding and Directive!</h1>
+<br>
+<ul *ngFor = "let item of todos">
+  <li>{{ item }}</li>     
+</ul>
+
+<h1>Two-Way Binding</h1>
+<br>
+<input [(ngModel)]="age">
+<p> I am {{age}} years old</p>
+<!-- Hide an image using ng-if directive -->
+<div *ngIf ="imageShows">
+<img src="../assets/plane.png" width="300px">
+</div>
+<button (click)="displayImage()">Show image</button>

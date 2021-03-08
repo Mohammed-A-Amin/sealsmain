@@ -1,0 +1,44 @@
+#heading{
+    background-image: url(../assets/math.jpg);
+    height: 15rem;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+}
+
+.display-4{
+    font-weight: bolder;
+    text-align: center;
+    -webkit-text-fill-color: black;
+    -webkit-text-stroke-width: 2px;
+    -webkit-text-stroke-color: coral;
+}
+
+#days{
+    background-color: #2A0C4E;
+}
+
+body{
+    background: #9E2B25;
+}
+
+.days{
+    text-align: center;
+    -webkit-text-fill-color: floralwhite;
+    -webkit-text-stroke-width: 2px;
+    -webkit-text-stroke-color: #9E2B25;
+    font-weight: bolder;
+}
+
+#days-s{
+    background-color: #2A0C4E;
+    width: 40%;
+}
+
+#butt{
+    background-color: #9E2B25;
+}
+
+li{
+    color: white;
+}

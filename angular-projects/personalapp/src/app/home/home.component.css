@@ -1,0 +1,53 @@
+#album{
+    background-color: rgb(255, 232, 212);
+    background: linear-gradient(rgb(255, 232, 212), #e66465);
+}
+
+#math{
+    float: right;
+    width: 20%;
+}
+#heading{
+    background-image: url(../assets/math.jpg);
+    height: 15rem;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+}
+
+.display-4{
+    font-weight: bolder;
+    text-align: center;
+    -webkit-text-fill-color: black;
+    -webkit-text-stroke-width: 2px;
+    -webkit-text-stroke-color: coral;
+}
+
+#Welcome{
+    text-align: left;
+
+}
+.display-5{
+    font-weight: bolder;
+    -webkit-text-fill-color: #e66465;
+    -webkit-text-stroke-width: 2px;
+    -webkit-text-stroke-color: black;
+}
+
+#heading-text{
+
+    width: 40%;
+}
+
+.helpful{
+    text-align: center;
+    font-weight: bold;
+    -webkit-text-fill-color: black;
+    -webkit-text-stroke-width: 1px;
+    -webkit-text-stroke-color: white;
+}
+
+body{
+    background-color: wheat;
+    background: linear-gradient(#e66465, wheat);
+}

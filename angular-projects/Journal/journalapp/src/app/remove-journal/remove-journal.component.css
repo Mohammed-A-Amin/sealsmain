@@ -1,0 +1,15 @@
+
+.title{
+    text-align:center;
+    color:white;
+    -webkit-text-stroke: 2px black;
+
+}
+
+.journal{
+    width:50%;
+    background-image: url(https://image.freepik.com/free-photo/colorful-pencils-notebook-lined-paper-background-with-copy-space-back-school-education-learning-concept_206881-119.jpg);
+   
+    background-repeat: no-repeat; /* Do not repeat the image */
+    background-repeat: no-repeat; /* Do not repeat the image */
+}

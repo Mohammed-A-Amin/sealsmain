@@ -1,0 +1,33 @@
+<nav class="navbar navbar-expand-lg navbar-light bg-light">
+    <a class="navbar-brand" href="#">My Journal</a>
+    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+    <div class="collapse navbar-collapse" id="navbarNav">
+      <ul class="navbar-nav">
+        <li class="nav-item active">
+          <a class="nav-link" href="/add">Add a Journal <span class="sr-only">(current)</span></a>
+        </li>
+        <li class="nav-item active">
+            <a class="nav-link" href="/remove">Remove a Journal <span class="sr-only">(current)</span></a>
+          </li>
+      </ul>
+    </div>
+  </nav>
+
+<div class = "container journal">
+    <div class = "row">
+      <div class = "col-md-10">
+        <h1 class = "page-title mt-5 title">Delete A Journal</h1>
+      <form [formGroup] = "deleteForm" (ngSubmit)="removeSpecifiedJournal()">
+        <div class = "form-group">
+        <input type = "text" 
+         class = "form-control"
+         placeholder = "Journal Title" 
+         formControlName = "title">
+        </div>
+        <button type="submit" class="btn btn-danger">Remove</button>
+      </form>
+    </div>
+    </div>
+  </div>

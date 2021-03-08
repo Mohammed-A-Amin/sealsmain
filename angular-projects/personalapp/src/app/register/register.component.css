@@ -1,0 +1,43 @@
+#heading{
+    background-image: url(../assets/math.jpg);
+    height: 15rem;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+}
+
+.display-4{
+    font-weight: bolder;
+    text-align: center;
+    -webkit-text-fill-color: black;
+    -webkit-text-stroke-width: 2px;
+    -webkit-text-stroke-color: coral;
+}
+
+
+.centered-form{
+	margin-top: 60px;
+}
+
+.centered-form .panel{
+	background: rgba(255, 255, 255, 0.8);
+	box-shadow: rgba(0, 0, 0, 0.3) 20px 20px 20px;
+}
+
+#form {
+    background-color: bisque;
+    margin: auto;
+   height: 400px;
+   
+}
+.panel-title{
+    text-align: center;
+}
+
+body{
+ background-image: url(https://www.coolmathgames.com/sites/default/files/jelly-truck.jpg);
+ background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+}
+

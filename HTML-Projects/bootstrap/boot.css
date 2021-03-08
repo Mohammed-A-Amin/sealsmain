@@ -1,0 +1,30 @@
+
+input{
+    border: none;
+    appearance: none;
+    background: #f2f2f2;
+    padding: 12px;
+    border-radius: 3px;
+    width: 250px;
+    outline: none;
+}
+
+#Enter{
+    width: 200px;
+}
+
+#Join{
+    background-color: royalblue;
+    width: 50%;
+ }
+
+ #apply{
+     color: cornflowerblue;
+     background-color: white;
+ }
+
+
+body{
+
+background: linear-gradient(#e66465, #9198e5);
+}

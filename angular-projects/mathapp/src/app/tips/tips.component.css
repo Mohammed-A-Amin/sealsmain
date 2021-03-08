@@ -1,0 +1,15 @@
+#heading{
+    background-image: url(../assets/math.jpg);
+    height: 15rem;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+}
+
+.display-4{
+    font-weight: bolder;
+    text-align: center;
+    -webkit-text-fill-color: black;
+    -webkit-text-stroke-width: 2px;
+    -webkit-text-stroke-color: coral;
+}

@@ -1,0 +1,39 @@
+.head{
+    color: white;
+}
+
+#calculator{
+    display:block;
+    background-image: url(https://png.pngtree.com/thumb_back/fw800/background/20200805/pngtree-purple-and-blue-nebula-galaxy-background-image_386406.jpg);
+    width: 20%;
+    text-align: center;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+}
+
+#n1{
+    padding: 5px;
+    background-color: coral;
+}
+
+#n2{
+    padding: 5px;
+    background-color: coral;
+}
+
+#operators{
+    padding: 5px;
+
+}
+
+#result{
+    background-image: radial-gradient(#e66465, #9198e5);
+}
+
+body{
+    background: linear-gradient(to right, #00AAFF, #00FF6C);
+}
+
+.button{
+    width: 100px;
+}
+

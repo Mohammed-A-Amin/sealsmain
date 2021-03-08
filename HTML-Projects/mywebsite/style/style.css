@@ -1,0 +1,81 @@
+body{
+    background-color: wheat;
+    margin: 0;
+}
+
+h1{
+    color: tomato;
+    text-align: center;
+}
+.headerfact{
+    color: maroon;
+    margin: auto;
+    text-align: center;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif
+    
+}
+
+.plane{
+    float:left;
+    width: 30%;
+
+
+}
+
+#facts{
+    background-color:darksalmon;
+    padding: 10px;
+    margin: auto;
+    width: 35%;
+    border: 10px solid maroon;
+    
+}
+
+.hearts{
+   width: 40%;
+}
+
+li{
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+.bulb{
+    display: block;
+    margin: auto;
+    width: 50%;
+}
+
+.paragraph{
+   font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+   
+}
+
+#paragraph{
+   margin: auto;
+   width: 75%;
+}
+
+#Reflection1{
+    background-color: darksalmon;
+    border: 5px solid darkred;
+}
+.Reflect1{
+    text-decoration: underline;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    text-align: center;
+    
+}
+.Reflectp{
+    text-align: start;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+
+}
+
+@media  (orientation:landscape) {
+    body{
+        color: maroon;
+    }
+}
+
+
+

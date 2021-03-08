@@ -1,0 +1,9 @@
+<h1>Welcome!</h1>
+
+
+<!--Post Request-->
+<form [formGroup]="inputGroup" (ngSubmit)="onFormSubmit()">
+  <label for="input">Movie</label>
+  <input type="text" placeholder="movie" formControlName="title" />
+  <button type="submit"> Post </button>
+</form>

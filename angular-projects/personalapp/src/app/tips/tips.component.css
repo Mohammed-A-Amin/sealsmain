@@ -1,0 +1,52 @@
+#heading{
+    background-image: url(../assets/math.jpg);
+    height: 15rem;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+}
+
+.display-4{
+    font-weight: bolder;
+    text-align: center;
+    -webkit-text-fill-color: black;
+    -webkit-text-stroke-width: 2px;
+    -webkit-text-stroke-color: coral;
+}
+
+
+.titles{
+    font-weight: bolder;
+    -webkit-text-fill-color: purple;
+    -webkit-text-stroke-width: 1px;
+    -webkit-text-stroke-color: black
+}
+
+#practice{
+    background-color: wheat;
+    border: peachpuff;
+    border-radius: 30px;
+}
+#review{
+    background-color: #FFF8F0;
+    border: peachpuff;
+    border-radius: 30px;
+}
+#master{
+    background-color: palevioletred;
+    border: peachpuff;
+    border-radius: 30px;
+}
+#doubts{
+    background-color: sandybrown;
+    border: peachpuff;
+    border-radius: 30px;
+}
+#distractions{
+    background-color: khaki;
+    border: peachpuff;
+    border-radius: 30px;
+}
+body{
+    background: linear-gradient(#e66465, #9198e5);
+}

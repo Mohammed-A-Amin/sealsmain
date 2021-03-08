@@ -1,0 +1,96 @@
+<body>
+<nav class="navbar navbar-expand-lg navbar-light bg-light">
+    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+    <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
+      <div class="navbar-nav">
+        <a class="nav-item nav-link active" href="#">Home <span class="sr-only">(current)</span></a>
+        <a class="nav-item nav-link" href="./tips">Tips</a>
+        <a class="nav-item nav-link" href="./schedule">Schedule</a>
+        <a class="nav-item nav-link" href="./register" id = "log">Register</a>
+      </div>
+    </div>
+  </nav>
+
+<div class="jumbotron jumbotron-fluid" id = "heading">
+    <div class="container" id = "heading-text">
+      <h1 class="display-4">Personal Schedule</h1>
+    </div>
+  </div>
+<div class = row>
+  <div class = col>
+  <div id = "days"class= container>
+    <h2 class= "days">Monday</h2>
+    <input [(ngModel)]='todomon' type="text" id="inputbox" placeholder="Enter activity">
+    <button (click)="displayMon()" type="button" id = "butt" class = "btn btn-primary">Schedule</button>
+    <ul *ngFor="let item of todosmon | slice:1; let i = index;">
+      <li class="list"> {{ item }}</li>
+    </ul>
+  </div>
+</div>
+<div class = col>
+  <div id = "days"class= container>
+    <h2 id = "days"class= "days" >Tuesday</h2>
+     <input [(ngModel)]='todotue' type="text" id="inputbox" placeholder="Enter activity">
+    <button (click)="displayTues()" type="button" id = "butt" class = "btn btn-primary">Schedule</button>
+    <ul *ngFor="let item of todostue | slice:1; let i = index;">
+      <li class="list"> {{ item }}</li>
+    </ul>
+  </div>
+</div>
+  <div class = col>
+     <div id = "days"class= container>
+        <h2 class= "days">Wednesday</h2>
+        <input [(ngModel)]='todowed' type="text" id="inputbox" placeholder="Enter activity">
+        <button (click)="displayWed()" type="button" id = "butt" class = "btn btn-primary">Schedule</button>
+        <ul *ngFor="let item of todoswed | slice:1; let i = index;">
+          <li class="list"> {{ item }}</li>
+        </ul>
+     </div>
+  </div>
+</div>
+<br>
+<div class = "row"
+> <div class = "col">
+    <div id = "days"class= container>
+      <h2 class= "days">Thursday</h2>
+      <input [(ngModel)]='todothurs' type="text" id="inputbox" placeholder="Enter activity">
+      <button (click)="displayThurs()" type="button" id = "butt" class = "btn btn-primary">Schedule</button>
+      <ul *ngFor="let item of todosthurs | slice:1; let i = index;">
+        <li class="list"> {{ item }}</li>
+      </ul>
+    </div>
+  </div>
+  <div class = "col">
+    <div id = "days"class= container>
+      <h2 class= "days">Friday</h2>
+      <input [(ngModel)]='todofri' type="text" id="inputbox" placeholder="Enter activity">
+      <button (click)="displayFri()" type="button" id = "butt" class = "btn btn-primary">Schedule</button>
+      <ul *ngFor="let item of todosfri | slice:1; let i = index;">
+        <li class="list"> {{ item }}</li>
+      </ul>
+    </div>
+  </div>
+  <div class = "col">
+    <div id = "days"class= container>
+      <h2 class= "days">Saturday</h2>
+      <input [(ngModel)]='todosat' type="text" id="inputbox" placeholder="Enter activity">
+      <button (click)="displaySat()" type="button" id = "butt" class = "btn btn-primary">Schedule</button>
+      <ul *ngFor="let item of todossat | slice:1; let i = index;">
+        <li class="list"> {{ item }}</li>
+      </ul>
+    </div>
+  </div>
+</div>
+<br><br>
+  <div id = "days-s"class= container>
+    <h2 class= "days">Sunday</h2>
+    <input [(ngModel)]='todosun' type="text" id="inputbox" placeholder="Enter activity">
+    <button (click)="displaySun()" type="button" id = "butt" class = "btn btn-primary">Schedule</button>
+    <ul *ngFor="let item of todossun | slice:1; let i = index;">
+      <li class="list"> {{ item }}</li>
+    </ul>
+  </div>
+
+  </body>

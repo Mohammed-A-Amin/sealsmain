@@ -1,0 +1,43 @@
+<nav class="navbar navbar-expand-lg navbar-light bg-light">
+    <a class="navbar-brand" href="#">My Journal</a>
+    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+    <div class="collapse navbar-collapse" id="navbarNav">
+      <ul class="navbar-nav">
+        <li class="nav-item active">
+          <a class="nav-link" href="/add">Add a Journal <span class="sr-only">(current)</span></a>
+        </li>
+        <li class="nav-item active">
+            <a class="nav-link" href="/remove">Remove a Journal <span class="sr-only">(current)</span></a>
+          </li>
+      </ul>
+    </div>
+  </nav>
+<!--Post Request-->
+<div class = "container journal">
+    <h1 class = "title">My Journal</h1> <br>
+  <form [formGroup]="createForm" (ngSubmit)="journalSubmit()"> 
+    <input class="form-control" type="text" placeholder="title" formControlName="title" />
+    <br>
+    <input class="form-control" type="text" placeholder="author" formControlName="author" />
+    <br>
+    <label for="input">New Entry</label>
+    <textarea class="form-control" id="exampleFormControlTextarea1" rows="3" formControlName= "content"></textarea>
+    <br>
+    <button class = "btn btn-light" type="submit"> Post </button>
+  </form>
+  </div>
+  <div class = "container journal">
+    <h1 class = "title">Update Your Journal</h1> <br>
+  <form [formGroup]="updateForm" (ngSubmit)="journalUpdate()"> 
+    <input class="form-control" type="text" placeholder="Update The Title" formControlName="selectedTitle" />
+    <br>
+    <input class="form-control" type="text" placeholder="Update The Author" formControlName="updatedAuthor" />
+    <br>
+    <label for="input">New Entry</label>
+    <textarea class="form-control" id="exampleFormControlTextarea1" placeholder="Updated Entry"rows="3" formControlName= "updatedContent"></textarea>
+    <br>
+    <button class = "btn btn-dark" type="submit"> Update </button>
+  </form>
+  </div>
